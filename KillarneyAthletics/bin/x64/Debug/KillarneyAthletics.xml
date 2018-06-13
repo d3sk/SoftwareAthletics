@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KillarneyAthletics
+</name>
+</assembly>
+<members>
+<member name="T:KillarneyAthletics.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:KillarneyAthletics.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:KillarneyAthletics.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:KillarneyAthletics.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:KillarneyAthletics.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:KillarneyAthletics.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:KillarneyAthletics.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:KillarneyAthletics.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:KillarneyAthletics.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:KillarneyAthletics.Discus">
+<summary>
+Discus
+</summary>
+</member>
+<member name="M:KillarneyAthletics.Discus.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.Javelin">
+<summary>
+Javelin
+</summary>
+</member>
+<member name="M:KillarneyAthletics.Javelin.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.LongJump">
+<summary>
+LongJump
+</summary>
+</member>
+<member name="M:KillarneyAthletics.LongJump.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.TwoHundredM">
+<summary>
+TwoHundredM
+</summary>
+</member>
+<member name="M:KillarneyAthletics.TwoHundredM.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:KillarneyAthletics.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:KillarneyAthletics.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:KillarneyAthletics.FifteenM">
+<summary>
+FifteenM
+</summary>
+</member>
+<member name="M:KillarneyAthletics.FifteenM.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.FinalForm">
+<summary>
+FinalForm
+</summary>
+</member>
+<member name="M:KillarneyAthletics.FinalForm.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.MainMenu">
+<summary>
+MainMenu
+</summary>
+</member>
+<member name="M:KillarneyAthletics.MainMenu.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:KillarneyAthletics.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:KillarneyAthletics.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

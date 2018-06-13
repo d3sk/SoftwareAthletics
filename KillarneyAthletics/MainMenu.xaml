@@ -1,0 +1,27 @@
+﻿<Page x:Class="MainMenu"
+	  
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KillarneyAthletics"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainMenu">
+
+    <Grid>
+
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+			<Label FontSize="20" FontStyle="Italic" FontFamily="Arial" HorizontalAlignment="Center">Please select the buttons below for the corresponding event</Label>
+			<WrapPanel Margin="100">
+				<Button x:Name="_200MButton" Height="100" Width="100" Margin="10">200m</Button>
+				<Button x:Name="_1500MButton" Height="100" Width="100" Margin="10">1500m</Button>
+				<Button x:Name="DiscusButton" Height="100" Width="100" Margin="10">Discus</Button>
+				<Button x:Name="JavelinButton" Height="100" Width="100" Margin="10">Javelin</Button>
+				<Button x:Name="LongJumpButton" Height="100" Width="100" Margin="10">Long Jump</Button>
+			</WrapPanel>
+			<Button x:Name="FinalFormBtn"  Content="Finalize All Results" Height="50" Width="300" IsEnabled="False"></Button>
+		</StackPanel>
+
+    </Grid>
+</Page>

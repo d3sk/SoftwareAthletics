@@ -1,0 +1,88 @@
+﻿<Page x:Class="FifteenM"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KillarneyAthletics"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="FifteenM">
+    <Grid>
+
+        <WrapPanel VerticalAlignment="Bottom" Margin="20,0,20,20" Grid.Row="1" >
+            <Button x:Name="BackButton" Width="100px" Height="50" Content="Back" HorizontalAlignment="left"/>
+            <Button x:Name="Submit" Width="100px" Height="50" Content="Submit" HorizontalAlignment="Center" Margin="10,0,0,0"></Button>
+            <Button x:Name="Reset" Width="100px" Height="50" Content="Reset" HorizontalAlignment="Center" Margin="10,0,0,0"></Button>
+        </WrapPanel>
+
+        <WrapPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" >
+            <ListBox x:Name="history" Height="50" Width="150" Margin="0,0,15,15"></ListBox>
+        </WrapPanel>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Height="300" Margin="0,-30,0,0" Grid.Row="1">
+            <Label Content="Competitor 1" FontWeight="Bold" Margin="0,0,0,0"/>
+            <WrapPanel>
+                <StackPanel>
+                    <Label Content="Name:"/>
+                    <TextBox x:Name="Comp1Name" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Result:"/>
+                    <TextBox x:Name="Comp1Result" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+                </StackPanel>
+                <StackPanel>
+                    <Label x:Name="comp1placingLabel" Content="Placinf:"/>
+                    <TextBox x:Name="comp1Placing" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Points:"/>
+                    <TextBox x:Name="comp1Points" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+                </StackPanel>
+            </WrapPanel>
+
+
+            <Label Content="Competitor 2" FontWeight="Bold" Margin="0,20,0,0"/>
+            <WrapPanel>
+                <StackPanel>
+                    <Label Content="Name:"/>
+                    <TextBox x:Name="comp2Name" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" />
+                </StackPanel>
+                <StackPanel >
+                    <Label Content="Result:"/>
+                    <TextBox x:Name="comp2Result" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" />
+                </StackPanel>
+                <StackPanel >
+                    <Label x:Name="comp2placingLabel" Content="Placinf:"/>
+                    <TextBox x:Name="comp2Placing" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" />
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Points:"/>
+                    <TextBox x:Name="comp2Points" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+                </StackPanel>
+            </WrapPanel>
+
+
+            <Label Content="Competitor 3" FontWeight="Bold" Margin="0,20,0,0"/>
+            <WrapPanel >
+                <StackPanel>
+                    <Label Content="Name:"/>
+                    <TextBox x:Name="comp3Name" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" />
+                </StackPanel>
+                <StackPanel >
+                    <Label Content="Result:"/>
+                    <TextBox x:Name="comp3Result" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" />
+                </StackPanel>
+                <StackPanel >
+                    <Label x:Name="comp3placingLabel" Content="Placinf:"/>
+                    <TextBox x:Name="comp3Placing" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" />
+                </StackPanel>
+                <StackPanel>
+                    <Label Content="Points:"/>
+                    <TextBox x:Name="comp3Points" Height="25" Width="120" TextWrapping="Wrap" Margin="0,0,10,0" TextAlignment="Justify" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"/>
+
+                </StackPanel>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Page>
